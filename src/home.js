@@ -38,5 +38,5 @@ charactersList();
 window.addEventListener("hashchange", () => {
     const id = location.hash.slice(1).toLocaleLowerCase().split("/")[1] || "/";
     localStorage.setItem("charID", id);
-    window.location.replace("./character.html");
+    window.location.replace("/character.html");
 });
